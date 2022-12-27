@@ -22,13 +22,16 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title:const Text("My App"),
+        title: const Text("My  App"),
       ),
       body: Center(
-        child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-         const Text("Number of times button pressed"),
-          Text("$_counter"),
-        ],),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const Text("Number of times button pressed"),
+            Text("$_counter"),
+          ],
+        ),
       ),
       floatingActionButton: IconButton(
         color: Colors.amber,
