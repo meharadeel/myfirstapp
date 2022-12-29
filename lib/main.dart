@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myfirstapp/firstdesign.dart';
+import 'package:myfirstapp/chat_screen2.dart';
 
 // import 'homepage.dart';
 
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const FirstDesign(),
+      home: const ChatScreen2(),
       // home: const MyHomePage(title: 'My App'),
     );
   }
